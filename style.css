@@ -9,15 +9,16 @@
 
 
 #t1{
-background-color: #1a4a3f;
+	background-color: black;
 grid-column: 1 / 3;
 
 
 }
 #t2{
-background-color: #1a4a3f;
-  grid-column: 3/4;
-  grid-row:1/3;
+
+	position: relative;
+ background-color: black;
+ grid-column: 3/4;
  align-items: left;
 
 }
@@ -26,6 +27,17 @@ background-color: #1a4a3f;
 
 
 .info{color: white;
-margin-left:3%; 
-}
+margin-left:3%; }
 
+#pic{  
+
+  position: absolute;
+  top: 3%;
+		right: 7%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  height: auto;
+
+}
